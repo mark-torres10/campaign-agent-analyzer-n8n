@@ -53,9 +53,9 @@ With an AI agent like this, you can:
 graph LR
 A[Cron Trigger / Sheet Update] --> B[Read Campaign Data]
 B --> C[Compute ROAS/CPA Deltas]
-C --> D[Send Data to OpenAI]
-D --> E[Generate Alert Summary]
-E --> F[Send Email (Gmail)]
+C --> D[Send to OpenAI]
+D --> E[Generate Summary]
+E --> F[Email Alert]
 ```
 
 ---
